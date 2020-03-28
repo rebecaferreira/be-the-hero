@@ -15,7 +15,7 @@ export default function Profile() {
     useEffect(() => { /*troquei 'profile' por 'incidents' */ 
         api.get('profile', {
             headers: {
-        Authorization: ongId,
+                Authorization: ongId,
         }
     }).then(response => {
         setIncidents(response.data);
