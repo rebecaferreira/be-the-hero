@@ -1,4 +1,4 @@
-# **Be The Hero**
+# ![Be The Hero](/frontend/src/assets/logo.svg)
 
 A Semana Omnistack é um workshop online produzido pela Rocketseat.
 Nesse workshop aprendi a desenvolver uma aplicação chamada Be The Hero, desde o backend até o frontend web e mobile, com uma única linguagem, o Javascript.
