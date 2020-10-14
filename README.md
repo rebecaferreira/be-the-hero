@@ -1,4 +1,6 @@
-# ![Be The Hero](/frontend/src/assets/logo.svg)
+<p align="center">
+  <img src=/frontend/src/assets/logo.svg/>
+</p>
 
 A Semana Omnistack é um workshop online produzido pela Rocketseat.
 Nesse workshop aprendi a desenvolver uma aplicação chamada Be The Hero, desde o backend até o frontend web e mobile, com uma única linguagem, o Javascript.
@@ -6,11 +8,11 @@ O aplicativo consiste em uma plataforma para ONGs se cadastrarem, e cadastrarem 
 
 ## Instalação
 Após o git clone, realizar os comandos:
+```bash
+npm install
 
-`npm install`
-
-`npm start`
-
+npm start
+```
 ## Projeto
 O back-end foi desenvolvido em NodeJS com acesso a banco de dados SQLite. Esta api faz uso do Knex.
 
