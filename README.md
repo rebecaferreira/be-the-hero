@@ -6,51 +6,51 @@
     <img src="https://img.shields.io/badge/Be The Hero-Semana Omnistack 11.0-cc1620?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
   </a></p>
 
-A Semana Omnistack é um workshop online produzido pela Rocketseat.
-Nesse workshop aprendi a desenvolver uma aplicação chamada Be The Hero, desde o backend até o frontend web e mobile, com uma única linguagem, o Javascript.
-O aplicativo consiste em uma plataforma para ONGs se cadastrarem, e cadastrarem os casos (incidentes) em que precisam de ajuda.
+Omnistack Week was a workshop powered by Rocketseat.
+In this workshop we learned to develop an application called Be The Hero, from the backend to the frontend (web & mobile), with only one language, JavaScript.
+The application is a platform for NGOs to sign up and create the incidents that they need help.
 
-## Instalação
-Após o git clone, realizar os comandos:
+## Installation
+After git clone, do the following commands:
 ```bash
 npm install
 
 npm start
 ```
-## Projeto
-O back-end foi desenvolvido em NodeJS com acesso a banco de dados SQLite. Esta api faz uso do Knex.
+## Project
+The back-end was developed with NodeJS and SQLite. This api uses Knex.
+The routes to access the api are in the routes.js file. 
 
-As rotas para acessar a API estão no arquivo routes.js. 
+## Front-End (Web & Mobile)
+The front-end was developed with ReactJS.
+The page of the Be The Hero will be opened. In this page, a NGO can sign up and create their incidents. The NGO will also be able to contact others NGOs to help them.
 
-## Front-End (Web e Mobile)
-O front-end web foi desenvolvido em ReactJS.
-A página da aplicação Be The Hero será aberta. Nela, uma ONG poderá se cadastrar e cadastrar seus incidentes. A ONG também poderá entrar em contato com outras ONGs para poder ajudar nos incidentes delas.
-
-### Versão Web
-Página de Login do Site:
+### Web Version
+Login page:
 
 ![](/frontend/public/login.jpg)
 
-Página de casos cadastrados pela ONG:
+Registered incidents page:
 
 ![](/frontend/public/lista-web.jpg)
 
-Página de cadastro de novos casos:
+Create new incidents page:
 
 ![](/frontend/public/cadastro.jpg)
 
-### Versão Mobile:
+### Mobile version:
 
+The mobile version was made with React Native and Expo.
 A versão mobile foi feita com React Native e Expo.
 
-Página de inicialização (Splash Screen):
+Splash Screen:
 
 ![](/frontend/public/landing.jpg)
 
-Página inicial (listagem de casos):
+Home page (incidents listing):
 
 ![](/frontend/public/lista.jpg)
 
-Página de detalhes & contato:
+Details & contact:
 
 ![](/frontend/public/ong.jpg)
