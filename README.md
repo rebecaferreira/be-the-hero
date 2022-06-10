@@ -41,7 +41,6 @@ Create new incidents page:
 ### Mobile version:
 
 The mobile version was made with React Native and Expo.
-A versão mobile foi feita com React Native e Expo.
 
 Splash Screen:
 
